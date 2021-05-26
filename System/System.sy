@@ -1,0 +1,133 @@
+echo off
+CHCP 65001
+setlocal EnableDelayedExpansion
+title Ker OS
+cd..
+cd Drivers
+call VGA.bat
+if not exist VGA.bat cd.. && cd Kernel && ren Kernel_boot.k Kernel_boot.bat && call Kernel_boot.bat && goto kernelpanic
+cd..
+cd Commands
+rename help.bat help.cm
+cd..
+cd System
+rename Systemcm.bat System.cm
+cd..
+cd Boot
+rename Boot_sector.bat Boot_sector.b
+cls
+echo                                                          ██╗░░██╗
+echo                                                          ██║░██╔╝ E
+echo                                                          █████═╝░
+echo                                                          ██╔═██╗░ R
+echo                                                          ██║░╚██╗
+echo                                                          ╚═╝░░╚═╝
+echo.
+echo                                                     Welcome! to Ker OS
+pause
+
+:login
+cls
+echo login comming soon!
+timeout 0 >nul
+
+:mainsys
+setlocal EnableDelayedExpansion
+cls
+echo=========================================================================================================================
+echo                                                          ██╗░░██╗
+echo                                                          ██║░██╔╝ E
+echo                                                          █████═╝░
+echo                                                          ██╔═██╗░ R               Type help for a list of commands!
+echo                                                          ██║░╚██╗
+echo                                                          ╚═╝░░╚═╝             Current Time: %time%
+echo                                                                               Current Date: %date%
+echo                                                           Ker OS
+echo=========================================================================================================================
+
+:command_s
+set /p command=Command Line: 
+if "%command%"== "help"  goto :help
+if "%command%"== "clear"  goto :clear
+if "%command%"== "launch"  goto :launch
+if "%command%"== "date"  goto :date
+if "%command%"== "time"  goto :time
+if "%command%"== "about"  goto :about
+if "%command%"== "reboot"  goto :reboot
+if "%command%"== "shutdown"  goto :shutdown
+
+echo Unknown Command!
+goto command_s
+
+:help
+timeout 0 >nul
+echo Command Line:===================Commands====================
+echo Command Line:
+echo Command Line: help:      shows this page
+echo Command Line: clear:     clears the command line
+echo Command Line: launch:    launch a program(comming soon)
+echo Command Line: date:      shows the current date
+echo Command Line: time:      shows the current time
+echo Command Line: about:     shows the version and about ker os
+echo Command Line: shutdown:  shutdown Ker OS
+echo Command Line: reboot:    reboot Ker OS
+echo Command Line: desktop:   GUI mode of Ker OS(comming soon)
+echo Command Line:
+echo Command Line:===============================================
+timeout 0 >nul
+goto command_s
+
+:clear
+cls
+goto mainsys
+
+:launch
+echo luanch command comming soon!
+pause
+goto :mainsys
+
+:date
+echo Current Date: %date%
+goto command_s
+
+:time
+echo Current Time: %time%
+goto command_s
+
+:about
+cd..
+cd Data
+ren os.dat os.bat
+cls
+echo=========================================================================================================================
+echo                                                          ██╗░░██╗
+echo                                                          ██║░██╔╝ E
+echo                                                          █████═╝░
+echo                                                          ██╔═██╗░ R               
+echo                                                          ██║░╚██╗
+echo                                                          ╚═╝░░╚═╝
+echo.
+echo                                                        About Ker OS
+echo=========================================================================================================================
+echo.
+call os.bat
+echo                Ker OS version:         %osver%
+echo                Ker OS Kernel Version:  %kernelver%                                 Copyright (c) Spawn Guardians
+echo                Build:                  %build%
+echo                Devloper:               gamemaster123356             
+echo.
+echo=========================================================================================================================
+ren os.bat os.dat
+goto command_s
+
+:shutdown
+cd..
+cd Boot
+ren Boot_shutdown.b Boot_shutdown.bat
+call Boot_shutdown.bat
+
+:reboot
+cd..
+cd Boot
+ren Boot_reboot.b Boot_reboot.bat
+call Boot_reboot.bat
