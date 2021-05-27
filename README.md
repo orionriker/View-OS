@@ -8,3 +8,9 @@ Ker OS A OS Made in Batch!
 - Lightweight
 - Easy to use
 - files of Ker OS have different extentions like .b or .sys etc..
+- Drivers That work only on Ker OS
+- Bootloader
+- Kernel
+- System like DOS(Kinda)
+
+**Make Sure to read the wiki!**
