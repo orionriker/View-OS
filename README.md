@@ -15,3 +15,7 @@ Ker OS A OS Made in Batch!
 - If you delete any files of Ker OS then Ker OS Kernel Will go into Kernel panic and you will have to re download the missing files
 
 **Make Sure to read the wiki!**
+
+## Credits
+Def-try
+for giving me some ideas
