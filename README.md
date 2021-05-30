@@ -11,7 +11,7 @@ Ker OS A OS Made in Batch!
 - Drivers That work only on Ker OS
 - Bootloader
 - Kernel
-- System like DOS(Kinda)
+- Nice Gui For Command line
 - If you delete any files of Ker OS then Ker OS Kernel Will go into Kernel panic and you will have to re download the missing files
 
 **Make Sure to read the wiki!**
