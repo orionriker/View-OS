@@ -1,5 +1,5 @@
 # View-OS
-Ker OS A OS Made in Batch!
+View OS A OS Made in Batch!
 
 **Note: this OS is purely made in batch and ignore what github says**
 
@@ -7,15 +7,11 @@ Ker OS A OS Made in Batch!
 - Commands
 - Lightweight
 - Easy to use
-- files of Ker OS have different extentions like .b or .sys etc..
-- Drivers That work only on Ker OS
+- files of View OS have different extentions like .b or .sys etc..
+- Drivers
 - Bootloader
 - Kernel
 - Nice Gui For Command line
-- If you delete any files of Ker OS then Ker OS Kernel Will go into Kernel panic and you will have to re download the missing files
+- If you delete any files of View OS then View OS Kernel Will go into Kernel panic and you will have to re download the missing files
 
 **Make Sure to read the wiki!**
-
-## Credits
-Def-try
-for giving me some ideas
