@@ -1,2 +1,2 @@
-color 9f
+color 17
 CHCP 65001
