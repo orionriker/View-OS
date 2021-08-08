@@ -1,5 +1,5 @@
 echo off
-title Ker OS Kernel
+title View OS Kernel
 CHCP 65001
 SETLOCAL EnableDelayedExpansion
 cd..
@@ -10,14 +10,15 @@ for /F "tokens=1,2 delims=#" %%a in ('"prompt #$H#$E# & echo on & for %%b in (1)
 )
 cls
 echo=====================================================
-echo        ██╗░░██╗        ██╗░░██╗        ██╗░░██╗
-echo        ██║░██╔╝ E      ██║░██╔╝ E      ██║░██╔╝ E
-echo        █████═╝░        █████═╝░        █████═╝░
-echo        ██╔═██╗░ R      ██╔═██╗░ R      ██╔═██╗░ R
-echo        ██║░╚██╗        ██║░╚██╗        ██║░╚██╗
-echo        ╚═╝░░╚═╝        ╚═╝░░╚═╝        ╚═╝░░╚═╝
+echo        ^|\     /^|     ^|\     /^|     ^|\     /^|
+echo        ^| )   ( ^|     ^| )   ( ^|     ^| )   ( ^|
+echo        ^| ^|   ^| ^|     ^| ^|   ^| ^|     ^| ^|   ^| ^|
+echo        ( (   ) )     ( (   ) )     ( (   ) )
+echo         \ \_/ /       \ \_/ /       \ \_/ / 
+echo          \   /         \   /         \   /
+echo           \_/           \_/           \_/
 echo.
-echo                  Ker OS Kernel BETA!
+echo                     View OS Kernel
 echo=====================================================
 timeout 1 >nul
 timeout 0 >nul
@@ -48,7 +49,7 @@ cd System
 if exist System.bat ren System.bat System.sy
 if not exist System.sy set error="System File missing!" && goto kernelpanic
 call :colortext 02                                                             "[OK]"
-call :colortext 0                                                              " Ker OS" && echo.
+call :colortext 0                                                              " System" && echo.
 timeout 1 >nul
 call :colortext 02                                                             "[OK]"
 call :colortext 0                                                              " Programs" && echo.
@@ -65,31 +66,31 @@ cd Boot
 rename Boot_sector.b Boot_sector.bat
 echo========================Done=========================
 echo.
-echo Beginning Folders and Files Check Process...
 timeout 1 >nul
 timeout 0 >nul
 timeout 1 >nul
 call Boot_sector.bat
 exit
-
+         
 :kernelpanic
 color 4
 cls
 echo 
 echo=====================================================
-echo        ██╗░░██╗        ██╗░░██╗        ██╗░░██╗
-echo        ██║░██╔╝ E      ██║░██╔╝ E      ██║░██╔╝ E
-echo        █████═╝░        █████═╝░        █████═╝░
-echo        ██╔═██╗░ R      ██╔═██╗░ R      ██╔═██╗░ R
-echo        ██║░╚██╗        ██║░╚██╗        ██║░╚██╗
-echo        ╚═╝░░╚═╝        ╚═╝░░╚═╝        ╚═╝░░╚═╝
+echo        ^|\     /^|     ^|\     /^|     ^|\     /^|
+echo        ^| )   ( ^|     ^| )   ( ^|     ^| )   ( ^|
+echo        ^| ^|   ^| ^|     ^| ^|   ^| ^|     ^| ^|   ^| ^|
+echo        ( (   ) )     ( (   ) )     ( (   ) )
+echo         \ \_/ /       \ \_/ /       \ \_/ / 
+echo          \   /         \   /         \   /
+echo           \_/           \_/           \_/
 echo.
 echo                      KERNEL PANIC!
 echo=====================================================
 echo. 
 echo  THE ERROR IS %error%
 echo.
-echo  TRY RESTARTING Ker OS AND SEE IF PROBLEM PERSISTS
+echo  TRY RESTARTING View OS AND SEE IF PROBLEM PERSISTS
 echo. 
 echo=====================================================
 pause
