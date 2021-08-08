@@ -1,14 +1,22 @@
 echo off
 CHCP 65001
 setlocal EnableDelayedExpansion
-title Ker OS
+title View OS
+set command=null
+set osver=null
+set kernelver=null
+set build=null
+if "%viewosopend%"== "1" goto :mainsys
+set viewosopend=0
+cd..
+cd Data
+ren os.dat os.bat
+call os.bat
+ren os.bat os.dat
 cd..
 cd Drivers
 call VGA.bat
 if not exist VGA.bat cd.. && cd Kernel && ren Kernel_boot.k Kernel_boot.bat && call Kernel_boot.bat && goto kernelpanic
-cd..
-cd Commands
-rename help.bat help.cm
 cd..
 cd System
 rename Systemcm.bat System.cm
@@ -16,14 +24,15 @@ cd..
 cd Boot
 rename Boot_sector.bat Boot_sector.b
 cls
-echo                                                          ██╗░░██╗
-echo                                                          ██║░██╔╝ E
-echo                                                          █████═╝░
-echo                                                          ██╔═██╗░ R
-echo                                                          ██║░╚██╗
-echo                                                          ╚═╝░░╚═╝
+echo                                                         ^|\     /^|
+echo                                                         ^| )   ( ^|
+echo                                                         ^| ^|   ^| ^|
+echo                                                         ( (   ) )
+echo                                                          \ \_/ / 
+echo                                                           \   /
+echo                                                            \_/
 echo.
-echo                                                     Welcome! to Ker OS
+echo                                                     Welcome! to View OS
 pause
 
 :login
@@ -32,20 +41,21 @@ echo login comming soon!
 timeout 0 >nul
 
 :mainsys
-setlocal EnableDelayedExpansion
 cls
-echo=========================================================================================================================
-echo                                                          ██╗░░██╗
-echo                                                          ██║░██╔╝ E
-echo                                                          █████═╝░
-echo                                                          ██╔═██╗░ R               Type help for a list of commands!
-echo                                                          ██║░╚██╗
-echo                                                          ╚═╝░░╚═╝             Current Time: %time%
-echo                                                                               Current Date: %date%
-echo                                                           Ker OS
-echo=========================================================================================================================
+echo ════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+echo                                                         ^|\     /^|
+echo                                                         ^| )   ( ^|
+echo                                                         ^| ^|   ^| ^|
+echo                                                         ( (   ) )
+echo                                                          \ \_/ / 
+echo                                                           \   /
+echo                                                            \_/
+echo.
+echo                                                          View OS
+echo ════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
 
 :command_s
+set command=null
 set /p command=Command Line: 
 if "%command%"== "help"  goto :help
 if "%command%"== "clear"  goto :clear
@@ -55,78 +65,96 @@ if "%command%"== "time"  goto :time
 if "%command%"== "about"  goto :about
 if "%command%"== "reboot"  goto :reboot
 if "%command%"== "shutdown"  goto :shutdown
+if "%command%"== "launch filek" goto :launchfilek
+if "%command%"== "desktop" goto :desktop
 
-echo Unknown Command!
+echo %command% is Not a External Command, Or a View OS Command Type help For a List of Commands^^!
 goto command_s
 
 :help
-timeout 0 >nul
-echo Command Line:===================Commands====================
+echo Command Line: ══════════════════════COMMANDS═══════════════════════
 echo Command Line:
-echo Command Line: help:      shows this page
-echo Command Line: clear:     clears the command line
-echo Command Line: launch:    launch a program(comming soon)
-echo Command Line: date:      shows the current date
-echo Command Line: time:      shows the current time
-echo Command Line: about:     shows the version and about ker os
-echo Command Line: shutdown:  shutdown Ker OS
-echo Command Line: reboot:    reboot Ker OS
-echo Command Line: desktop:   GUI mode of Ker OS(comming soon)
+echo Command Line:  help:      shows this page
+echo Command Line:  clear:     clears the command line
+echo Command Line:  launch:    launch a program launch [nameofprogram]
+echo Command Line:  date:      shows the current date
+echo Command Line:  time:      shows the current time
+echo Command Line:  about:     shows the version and about View os
+echo Command Line:  shutdown:  shutdown View OS
+echo Command Line:  reboot:    reboot View OS
+echo Command Line:  desktop:   GUI mode of View OS
 echo Command Line:
-echo Command Line:===============================================
+echo Command Line: ═════════════════════════════════════════════════════
+set command=null
 timeout 0 >nul
 goto command_s
 
+:launchfilek
+set command=null
+cd..
+cd Programs
+call fileK.bat
+
 :clear
+set command=null
 cls
 goto mainsys
 
+:desktop
+cd..
+cd Kgui
+start View_OS_GUI.html
+goto :command_s
+
 :launch
-echo luanch command comming soon!
-pause
-goto :mainsys
+set command=null
+echo Command Line: You MUST ENTER A PROGRAM NAME^^!
+goto :command_s
 
 :date
+set command=null
 echo Current Date: %date%
 goto command_s
 
 :time
+set command=null
 echo Current Time: %time%
 goto command_s
 
 :about
-cd..
-cd Data
-ren os.dat os.bat
+set command=null
 cls
-echo=========================================================================================================================
-echo                                                          ██╗░░██╗
-echo                                                          ██║░██╔╝ E
-echo                                                          █████═╝░
-echo                                                          ██╔═██╗░ R               
-echo                                                          ██║░╚██╗
-echo                                                          ╚═╝░░╚═╝
+echo ════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
+echo                                                         ^|\     /^|
+echo                                                         ^| )   ( ^|
+echo                                                         ^| ^|   ^| ^|
+echo                                                         ( (   ) )
+echo                                                          \ \_/ / 
+echo                                                           \   /
+echo                                                            \_/
 echo.
-echo                                                        About Ker OS
-echo=========================================================================================================================
+echo                                                       About View OS
+echo ════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
 echo.
-call os.bat
-echo                Ker OS version:         %osver%
-echo                Ker OS Kernel Version:  %kernelver%                                 Copyright (c) Spawn Guardians
-echo                Build:                  %build%
-echo                Devloper:               gamemaster123356             
+echo           View OS version:         %osver%
+echo           View OS Kernel Version:  %kernelver%                                 Copyright (c) gamemaster123356
+echo           Build:                   %build%
+echo           Devloper:                gamemaster123356             
 echo.
-echo=========================================================================================================================
-ren os.bat os.dat
+echo ════════════════════════════════════════════════════════════════════════════════════════════════════════════════════════
 goto command_s
 
 :shutdown
+set command=null
 cd..
 cd Boot
 ren Boot_shutdown.b Boot_shutdown.bat
+dir
+pause
 call Boot_shutdown.bat
 
 :reboot
+set command=null
 cd..
 cd Boot
 ren Boot_reboot.b Boot_reboot.bat
