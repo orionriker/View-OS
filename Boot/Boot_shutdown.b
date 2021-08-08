@@ -1,5 +1,5 @@
 echo off
-title Shuting Down Ker OS
+title Shuting Down View OS
 CHCP 65001
 cls
 echo.
@@ -11,16 +11,17 @@ echo.
 echo.
 echo.
 echo.
-echo                                                          ██╗░░██╗
-echo                                                          ██║░██╔╝ E
-echo                                                          █████═╝░
-echo                                                          ██╔═██╗░ R
-echo                                                          ██║░╚██╗
-echo                                                          ╚═╝░░╚═╝
+echo                                                         ^|\     /^|
+echo                                                         ^| )   ( ^|
+echo                                                         ^| ^|   ^| ^|
+echo                                                         ( (   ) )
+echo                                                          \ \_/ / 
+echo                                                           \   /
+echo                                                            \_/
 echo.
 echo                                                         =   =   =
 echo.                                                
-echo                                                    Shuting Down Ker OS
+echo                                                    Shuting Down View OS
 timeout 1 >nul
 cls
 echo.
@@ -32,16 +33,17 @@ echo.
 echo.
 echo.
 echo.
-echo                                                          ██╗░░██╗
-echo                                                          ██║░██╔╝ E
-echo                                                          █████═╝░
-echo                                                          ██╔═██╗░ R
-echo                                                          ██║░╚██╗
-echo                                                          ╚═╝░░╚═╝
+echo                                                         ^|\     /^|
+echo                                                         ^| )   ( ^|
+echo                                                         ^| ^|   ^| ^|
+echo                                                         ( (   ) )
+echo                                                          \ \_/ / 
+echo                                                           \   /
+echo                                                            \_/
 echo                                                         =
 echo                                                             =   =
 echo.                                                
-echo                                                    Shuting Down Ker OS
+echo                                                    Shuting Down View OS
 timeout 1 >nul
 cls
 echo.
@@ -53,16 +55,17 @@ echo.
 echo.
 echo.
 echo.
-echo                                                          ██╗░░██╗
-echo                                                          ██║░██╔╝ E
-echo                                                          █████═╝░
-echo                                                          ██╔═██╗░ R
-echo                                                          ██║░╚██╗
-echo                                                          ╚═╝░░╚═╝
+echo                                                         ^|\     /^|
+echo                                                         ^| )   ( ^|
+echo                                                         ^| ^|   ^| ^|
+echo                                                         ( (   ) )
+echo                                                          \ \_/ / 
+echo                                                           \   /
+echo                                                            \_/
 echo                                                             =
 echo                                                         =       =
 echo.                                                
-echo                                                    Shuting Down Ker OS
+echo                                                    Shuting Down View OS
 timeout 1 >nul
 cls
 echo.
@@ -74,16 +77,17 @@ echo.
 echo.
 echo.
 echo.
-echo                                                          ██╗░░██╗
-echo                                                          ██║░██╔╝ E
-echo                                                          █████═╝░
-echo                                                          ██╔═██╗░ R
-echo                                                          ██║░╚██╗
-echo                                                          ╚═╝░░╚═╝
+echo                                                         ^|\     /^|
+echo                                                         ^| )   ( ^|
+echo                                                         ^| ^|   ^| ^|
+echo                                                         ( (   ) )
+echo                                                          \ \_/ / 
+echo                                                           \   /
+echo                                                            \_/
 echo                                                                 =
 echo                                                         =   =   
 echo.                                                
-echo                                                    Shuting Down Ker OS
+echo                                                    Shuting Down View OS
 timeout 1 >nul
 cls
 echo.
@@ -95,16 +99,17 @@ echo.
 echo.
 echo.
 echo.
-echo                                                          ██╗░░██╗
-echo                                                          ██║░██╔╝ E
-echo                                                          █████═╝░
-echo                                                          ██╔═██╗░ R
-echo                                                          ██║░╚██╗
-echo                                                          ╚═╝░░╚═╝
+echo                                                         ^|\     /^|
+echo                                                         ^| )   ( ^|
+echo                                                         ^| ^|   ^| ^|
+echo                                                         ( (   ) )
+echo                                                          \ \_/ / 
+echo                                                           \   /
+echo                                                            \_/
 echo.
 echo                                                         =   =   =
 echo.                                                
-echo                                                    Shuting Down Ker OS
+echo                                                    Shuting Down View OS
 timeout 1 >nul
 cls
 echo.
@@ -116,16 +121,17 @@ echo.
 echo.
 echo.
 echo.
-echo                                                          ██╗░░██╗
-echo                                                          ██║░██╔╝ E
-echo                                                          █████═╝░
-echo                                                          ██╔═██╗░ R
-echo                                                          ██║░╚██╗
-echo                                                          ╚═╝░░╚═╝
+echo                                                         ^|\     /^|
+echo                                                         ^| )   ( ^|
+echo                                                         ^| ^|   ^| ^|
+echo                                                         ( (   ) )
+echo                                                          \ \_/ / 
+echo                                                           \   /
+echo                                                            \_/
 echo                                                         =
 echo                                                             =   =
 echo.                                                
-echo                                                    Shuting Down Ker OS
+echo                                                    Shuting Down View OS
 timeout 1 >nul
 cls
 echo.
@@ -137,16 +143,17 @@ echo.
 echo.
 echo.
 echo.
-echo                                                          ██╗░░██╗
-echo                                                          ██║░██╔╝ E
-echo                                                          █████═╝░
-echo                                                          ██╔═██╗░ R
-echo                                                          ██║░╚██╗
-echo                                                          ╚═╝░░╚═╝
+echo                                                         ^|\     /^|
+echo                                                         ^| )   ( ^|
+echo                                                         ^| ^|   ^| ^|
+echo                                                         ( (   ) )
+echo                                                          \ \_/ / 
+echo                                                           \   /
+echo                                                            \_/
 echo                                                             =
 echo                                                         =       =
 echo.                                                
-echo                                                    Shuting Down Ker OS
+echo                                                    Shuting Down View OS
 timeout 1 >nul
 cls
 echo.
@@ -158,16 +165,17 @@ echo.
 echo.
 echo.
 echo.
-echo                                                          ██╗░░██╗
-echo                                                          ██║░██╔╝ E
-echo                                                          █████═╝░
-echo                                                          ██╔═██╗░ R
-echo                                                          ██║░╚██╗
-echo                                                          ╚═╝░░╚═╝
+echo                                                         ^|\     /^|
+echo                                                         ^| )   ( ^|
+echo                                                         ^| ^|   ^| ^|
+echo                                                         ( (   ) )
+echo                                                          \ \_/ / 
+echo                                                           \   /
+echo                                                            \_/
 echo                                                                 =
 echo                                                         =   =   
 echo.                                                
-echo                                                    Shuting Down Ker OS
+echo                                                    Shuting Down View OS
 timeout 1 >nul
 cls
 echo.
@@ -179,16 +187,17 @@ echo.
 echo.
 echo.
 echo.
-echo                                                          ██╗░░██╗
-echo                                                          ██║░██╔╝ E
-echo                                                          █████═╝░
-echo                                                          ██╔═██╗░ R
-echo                                                          ██║░╚██╗
-echo                                                          ╚═╝░░╚═╝
+echo                                                         ^|\     /^|
+echo                                                         ^| )   ( ^|
+echo                                                         ^| ^|   ^| ^|
+echo                                                         ( (   ) )
+echo                                                          \ \_/ / 
+echo                                                           \   /
+echo                                                            \_/
 echo.
 echo                                                         =   =   =
 echo.                                                
-echo                                                    Shuting Down Ker OS
+echo                                                    Shuting Down View OS
 timeout 1 >nul
 cls
 echo.
@@ -200,16 +209,17 @@ echo.
 echo.
 echo.
 echo.
-echo                                                          ██╗░░██╗
-echo                                                          ██║░██╔╝ E
-echo                                                          █████═╝░
-echo                                                          ██╔═██╗░ R
-echo                                                          ██║░╚██╗
-echo                                                          ╚═╝░░╚═╝
+echo                                                         ^|\     /^|
+echo                                                         ^| )   ( ^|
+echo                                                         ^| ^|   ^| ^|
+echo                                                         ( (   ) )
+echo                                                          \ \_/ / 
+echo                                                           \   /
+echo                                                            \_/
 echo                                                         =
 echo                                                             =   =
 echo.                                                
-echo                                                    Shuting Down Ker OS
+echo                                                    Shuting Down View OS
 timeout 1 >nul
 cls
 echo.
@@ -221,16 +231,17 @@ echo.
 echo.
 echo.
 echo.
-echo                                                          ██╗░░██╗
-echo                                                          ██║░██╔╝ E
-echo                                                          █████═╝░
-echo                                                          ██╔═██╗░ R
-echo                                                          ██║░╚██╗
-echo                                                          ╚═╝░░╚═╝
+echo                                                         ^|\     /^|
+echo                                                         ^| )   ( ^|
+echo                                                         ^| ^|   ^| ^|
+echo                                                         ( (   ) )
+echo                                                          \ \_/ / 
+echo                                                           \   /
+echo                                                            \_/
 echo                                                             =
 echo                                                         =       =
 echo.                                                
-echo                                                    Shuting Down Ker OS
+echo                                                    Shuting Down View OS
 timeout 1 >nul
 cls
 echo.
@@ -242,16 +253,17 @@ echo.
 echo.
 echo.
 echo.
-echo                                                          ██╗░░██╗
-echo                                                          ██║░██╔╝ E
-echo                                                          █████═╝░
-echo                                                          ██╔═██╗░ R
-echo                                                          ██║░╚██╗
-echo                                                          ╚═╝░░╚═╝
+echo                                                         ^|\     /^|
+echo                                                         ^| )   ( ^|
+echo                                                         ^| ^|   ^| ^|
+echo                                                         ( (   ) )
+echo                                                          \ \_/ / 
+echo                                                           \   /
+echo                                                            \_/
 echo                                                                 =
 echo                                                         =   =   
 echo.                                                
-echo                                                    Shuting Down Ker OS
+echo                                                    Shuting Down View OS
 timeout 1 >nul
 cls
 echo ████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
@@ -284,7 +296,7 @@ echo █████████████████████████
 echo ████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
 echo ████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
 echo ████████████████████████████████████████████████████████████████████████████████████████████████████████████████████
-timeout 1 >nul
+timeout 0 >nul
 cd..
 cd System
 ren System.bat System.sy
