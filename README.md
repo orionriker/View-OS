@@ -15,3 +15,5 @@ View OS A OS Made in Batch!
 - If you delete any files of View OS then View OS Kernel Will go into Kernel panic and you will have to re download the missing files
 
 **Make Sure to read the wiki!**
+
+**Where is the Source Code? check the Source page in the wiki**
