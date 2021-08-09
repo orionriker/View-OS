@@ -14,4 +14,4 @@ View OS A OS Made in Batch!
 
 **Make Sure to read the wiki!**
 
-**Where is the Source Code? check the Source page in the wiki**
+**Where is the Source Code? check the Homepage in the wiki**
