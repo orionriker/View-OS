@@ -1,8 +1,6 @@
 # View-OS
 View OS A OS Made in Batch!
 
-**Note: this OS is purely made in batch and ignore what github says**
-
 ## Features
 - Commands
 - Lightweight
