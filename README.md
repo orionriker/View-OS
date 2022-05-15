@@ -5,12 +5,10 @@ View OS A OS Made in Batch!
 - Commands
 - Lightweight
 - Easy to use
-- files of View OS have different extentions like .b or .sys etc..
 - Drivers
 - Bootloader
 - Kernel
-- Nice Gui For Command line
-- If you delete any files of View OS then View OS Kernel Will go into Kernel panic and you will have to re download the missing files
+- User Friendly
 
 **Make Sure to read the wiki!**
 
