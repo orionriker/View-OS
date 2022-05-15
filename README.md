@@ -5,9 +5,8 @@ View OS A OS Made in Batch!
 - Commands
 - Lightweight
 - Easy to use
-- Drivers
-- Bootloader
-- Kernel
+- File System
+- Login/Register System
 - User Friendly
 
 **Make Sure to read the wiki!**
