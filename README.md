@@ -13,7 +13,7 @@ View OS A OS Made in Batch! ViewOS has no affiliation with microsoft
 
 # FAQ
 **Where is the Source Code?**
-`check the Homepage in the wiki`
+```check the Homepage in the wiki```
 
 **Why a OS made in batch why not a real OS?**
-`Well i just wanted to make something for fun and a batch OS just came in my mind so i made it ¯\_(ツ)_/¯`
+```Well i just wanted to make something for fun and a batch OS just came in my mind so i made it ¯\_(ツ)_/¯```
