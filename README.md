@@ -1,3 +1,3 @@
 # View-OS - DEVELOPER VERSION
 
-## WARNING: Here be dragons unfinished code bugs and glitches
+**WARNING: Here be dragons unfinished code bugs and glitches**
