@@ -1,5 +1,5 @@
 # View-OS
-View OS A OS Made in Batch! ViewOS hs no affiliation with microsoft
+View OS A OS Made in Batch! ViewOS has no affiliation with microsoft
 
 ## Why ViewOS?
 - Lightweight
