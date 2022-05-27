@@ -1,4 +1,4 @@
-![](https://github.com/user/ViewOS-Banner.png)
+![](https://github.com/gamemaster123356/View-OS/blob/viewos-main/ViewOS-Banner.png)
 # View-OS
 View OS A OS Made in Batch! ViewOS has no affiliation with microsoft
 
