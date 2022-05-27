@@ -5,7 +5,7 @@ We love your input! We want to make contributing to this project as easy and tra
 - Submitting a fix
 - Proposing new features
 
-# Any contributions you make will be under the MIT Software License
+# Any contributions you make will be under the GNU General Public License v3.0
 In short, when you submit code changes, your submissions are understood to be under the same [GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/) that covers the project. Feel free to contact the maintainers if that's a concern.
 
 ## Report bugs using Github's [issues](https://github.com/gamemaster123356/View-OS/issues)
@@ -25,3 +25,6 @@ We use GitHub issues to track public bugs. Report a bug by opening a new issue i
 
 # License
 By contributing, you agree that your contributions will be licensed under its GNU General Public License v3.0.
+
+## References
+This document was adapted from the open-source contribution guidelines for [Facebook's Draft](https://github.com/facebook/draft-js/blob/a9316a723f9e918afde44dea68b5f9f39b7d9b00/CONTRIBUTING.md)
