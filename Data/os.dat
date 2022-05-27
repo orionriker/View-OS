@@ -1,0 +1,10 @@
+:: ViewOS is made by gamemaster123356
+:: Copyright (c) gamemaster123356
+:: please do not steal code
+:: please do not redistribute ViewOS or any of its parts without permmision and give a link to the github page
+:: this file is one of the data files of viewos
+
+set osver=2.1 DEV
+set kernelver=1.3 DEV
+set build=2011 DEV
+set viewfsver=1.0 DEV
