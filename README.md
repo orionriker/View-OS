@@ -1,9 +1,9 @@
 ![](https://github.com/gamemaster123356/View-OS/blob/viewos-stable/ViewOS-Banner.png)
 <div align="center">
-  <img alt="GitHub release (release name instead of tag name)" src="https://img.shields.io/github/v/release/gamemaster123356/gmx?color=dodgerblue&include_prereleases&label=latest&style=for-the-badge">
-  <img alt="GitHub Stars" src="https://img.shields.io/github/stars/gamemaster123356/gmx?color=dodgerblue&label=stars&style=for-the-badge">
-  <img alt="GitHub Issues" src="https://img.shields.io/github/issues/gamemaster123356/gmx?color=dodgerblue&label=issues&style=for-the-badge">
-  <img alt="GitHub License" src="https://img.shields.io/badge/LICENSE-gnu%20agpl%20v3-dodgerblue?style=for-the-badge">
+  <img alt="GitHub release (release name instead of tag name)" src="https://img.shields.io/github/v/release/gamemaster123356/View-OS?color=dodgerblue&include_prereleases&label=latest&style=for-the-badge">
+  <img alt="GitHub Stars" src="https://img.shields.io/github/stars/gamemaster123356/View-OS?color=dodgerblue&label=stars&style=for-the-badge">
+  <img alt="GitHub Issues" src="https://img.shields.io/github/issues/gamemaster123356/View-OS?color=dodgerblue&label=issues&style=for-the-badge">
+  <img alt="GitHub License" src="https://img.shields.io/badge/LICENSE-gnu%20gpl%20v3-dodgerblue?style=for-the-badge">
 </div>
 <br/>
 View OS A OS Made in Batch! ViewOS has no affiliation with microsoft and comes with ABSOLUTELY NO WARRANTY, View OS filesystem is unix-like same goes for **some** commands
