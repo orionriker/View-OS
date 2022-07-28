@@ -19,7 +19,7 @@ View OS A OS Made in Batch! ViewOS has no affiliation with microsoft and comes w
 - User Friendly
 
 **Make Sure to read the wiki!**
-<br/>
+<br/><br/>
 
 # 💬 FAQ
 **Where is the Source Code?**<br>
