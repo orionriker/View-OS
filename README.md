@@ -6,7 +6,7 @@
   <img alt="GitHub License" src="https://img.shields.io/badge/LICENSE-gnu%20gpl%20v3-dodgerblue?style=for-the-badge">
 </div>
 <br/>
-View OS A OS Made in Batch! ViewOS has no affiliation with microsoft and comes with ABSOLUTELY NO WARRANTY, View OS filesystem is unix-like same goes for **some** commands
+View OS A OS Made in Batch! ViewOS has no affiliation with microsoft and comes with ABSOLUTELY NO WARRANTY, View OS filesystem is unix-like same goes for <b>some</b> commands
 <hr>
 <br/>
 ## ❓ Why ViewOS?
