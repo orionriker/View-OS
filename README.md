@@ -7,7 +7,8 @@
 </div>
 <br/>
 View OS A OS Made in Batch! ViewOS has no affiliation with microsoft and comes with ABSOLUTELY NO WARRANTY, View OS filesystem is unix-like same goes for **some** commands
-
+<hr>
+<br/>
 ## ❓ Why ViewOS?
 - Lightweight
 - Easy to use
