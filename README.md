@@ -1,3 +1,6 @@
+> **Warning**
+> This project is now, no longer maintained for some amount of time
+
 ![](https://github.com/gamemaster123356/View-OS/blob/viewos-stable/ViewOS-Banner.png)
 <div align="center">
   <img alt="GitHub release (release name instead of tag name)" src="https://img.shields.io/github/v/release/gamemaster123356/View-OS?color=dodgerblue&include_prereleases&label=latest&sort=date&style=for-the-badge">
