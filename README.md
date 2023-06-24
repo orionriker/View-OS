@@ -1,5 +1,5 @@
 > **Warning**<br>
-> This project is now, no longer maintained for some amount of time
+> This project is now no longer maintained for an unknown amount of time
 
 ![](https://github.com/gamemaster123356/View-OS/blob/viewos-stable/ViewOS-Banner.png)
 <div align="center">
