@@ -13,7 +13,7 @@ View OS is a unique operating system created entirely in Batch. Please note that
 <hr>
 <br/>
 
-## ❓ Why Choose ViewOS?
+# ❓ Why Choose ViewOS?
 - Lightweight and efficient
 - User-friendly and easy to navigate
 - Features its own unique file system (ViewFS, not to be confused with Apache ViewFS)
