@@ -1,7 +1,7 @@
 > **Warning**<br>
 > This project is no longer maintained for an unknown amount of time
 
-![](https://github.com/gamemaster123356/View-OS/blob/viewos-stable/ViewOS-Banner.png)
+![ViewOS-ReadME-Banner](https://github.com/gamemaster123356/View-OS/blob/github-assets/ViewOS-ReadME-Banner.png)
 <div align="center">
   <img alt="GitHub release (release name instead of tag name)" src="https://img.shields.io/github/v/release/gamemaster123356/View-OS?color=dodgerblue&include_prereleases&label=latest&sort=date&style=for-the-badge">
   <img alt="GitHub Stars" src="https://img.shields.io/github/stars/gamemaster123356/View-OS?color=dodgerblue&label=stars&style=for-the-badge">
