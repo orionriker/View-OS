@@ -13,20 +13,22 @@ View OS is a unique operating system created entirely in Batch. Please note that
 <hr>
 <br/>
 
-## ❓ Why ViewOS?
-- Lightweight
-- Easy to use
-- Has it's Own File System (ViewFS NOT Apache ViewFS)
-- Login/Register System
-- Multi Users Support
-- User Friendly
+## ❓ Why Choose ViewOS?
+- Lightweight and efficient
+- User-friendly and easy to navigate
+- Features its own unique file system (ViewFS, not to be confused with Apache ViewFS)
+- Includes a login and registration system
+- Supports multiple users(W.I.P)
 
-**Make Sure to read the wiki!**
+**We highly recommend that you read the ViewOS wiki for more information on how to get the most out of your experience.**
 <br/><br/>
 
-# 💬 FAQ
-**Where is the Source Code?**<br>
-`check the Homepage in the wiki`
+# 💬 Frequently Asked Questions
+### Why did you choose to make an operating system in Batch instead of using a more traditional programming language? <br>
+I created ViewOS as a fun project and the idea of building an operating system in Batch seemed like a cool challenge to me. While it may not be a traditional choice, I hope that ViewOS provides a unique and enjoyable experience for its users.
 
-**Why a OS made in batch why not a real OS?**<br>
-`Well i just wanted to make something for fun and a batch OS just came in my mind and i thought it would be cool so i made it`
+### How do I install and set up ViewOS? <br>
+Instructions for installing and setting up ViewOS can be found in the ViewOS wiki. Please refer to the wiki for detailed step-by-step instructions.
+
+### What kind of support is available for ViewOS? <br>
+ViewOS is an open-source project, which means that support is largely community-driven. However, there is an active community of developers and users who are happy to help answer questions and troubleshoot issues. You can also refer to the ViewOS wiki for more information and resources.
