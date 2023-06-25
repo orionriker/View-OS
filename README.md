@@ -9,7 +9,7 @@
   <img alt="GitHub License" src="https://img.shields.io/badge/LICENSE-gnu%20gpl%20v3-dodgerblue?style=for-the-badge">
 </div>
 <br/>
-View OS A OS Made in Batch! ViewOS has no affiliation with microsoft and comes with ABSOLUTELY NO WARRANTY, View OS filesystem is unix-like same goes for <b>some</b> commands
+View OS is a unique operating system created entirely in Batch. Please note that View OS has no affiliation with Microsoft and is provided with absolutely no warranty or guarantee. The View OS filesystem is designed to be unix-like, and some commands may also follow this convention.
 <hr>
 <br/>
 
