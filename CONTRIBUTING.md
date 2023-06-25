@@ -19,7 +19,7 @@ Pull requests are the best way to propose changes to the codebase (we use [Githu
 6. Issue that pull request!
 
 # Any contributions you make will be under the GNU General Public License v3.0
-In short, when you submit code changes, your submissions are understood to be under the same [GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/) that covers the project. Feel free to contact the maintainers if that's a concern.
+When you submit changes to the codebase, please note that your submissions are subject to the terms of the [GNU General Public License v3.0](https://choosealicense.com/licenses/gpl-3.0/), which covers the project. If you have any concerns about this, please feel free to reach out to the project maintainers for further clarification or discussion.
 
 ## Report bugs using Github's [issues](https://github.com/gamemaster123356/View-OS/issues)
 We use GitHub issues to track public bugs. Report a bug by opening a new issue it's that easy!
