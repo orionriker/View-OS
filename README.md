@@ -3,7 +3,7 @@
 
 ![ViewOS-ReadME-Banner](https://github.com/gamemaster123356/View-OS/blob/github-assets/ViewOS-ReadME-Banner.png)
 
-# View OS Canary Branch: Embrace Cutting-Edge Advancements
+# View OS - Canary Branch: Embrace Cutting-Edge Advancements
 Experience the avant-garde with View-OS Canary Branch, where innovation takes flight and boundaries are pushed beyond limits. This exclusive branch offers a sneak peek into the latest and most daring developments that our team has been working on.
 <br><br><br>
 
