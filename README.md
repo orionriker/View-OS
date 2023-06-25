@@ -11,7 +11,6 @@
 <br/>
 View OS is a unique operating system created entirely in Batch. Please note that View OS has no affiliation with Microsoft and is provided with absolutely no warranty or guarantee. The View OS filesystem is designed to be unix-like, and some commands may also follow this convention.
 <hr>
-<br/>
 
 # ❓ Why Choose ViewOS?
 - Lightweight and efficient
